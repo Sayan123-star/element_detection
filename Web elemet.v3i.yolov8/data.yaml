@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Navigation dots', 'breadcrums', 'buttons', 'icon', 'images', 'input fields', 'links', 'logo', 'text']
+
+roboflow:
+  workspace: elementdetect
+  project: web-elemet
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/elementdetect/web-elemet/dataset/3
